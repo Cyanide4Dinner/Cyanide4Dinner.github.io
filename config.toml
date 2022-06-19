@@ -1,4 +1,4 @@
-baseurl = "https://Cyanide4Dinner.github.io"
+baseurl = "https://cyanide4dinner.github.io"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
