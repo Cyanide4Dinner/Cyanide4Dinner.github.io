@@ -12,7 +12,7 @@ paginate = 5
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -21,7 +21,7 @@ paginate = 5
   fullWidthTheme = false
 
   # center theme with default width
-  centerTheme = false
+  centerTheme =	true 
 
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -89,3 +89,11 @@ paginate = 5
         identifier = "posts"
         name = "Posts"
         url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        name = "Resume"
+				url = "/utkarsh_dwivedi_resume.pdf"
+      [[languages.en.menu.main]]
+        identifier = "linkedin"
+        name = "LinkedIn"
+				url = "https://www.linkedin.com/in/utkarsh-d-5a7b39228/"

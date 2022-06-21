@@ -6,6 +6,17 @@
     <description>Recent content in Tags on ud01</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Utkarsh Dwivedi</copyright><atom:link href="https://cyanide4dinner.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Utkarsh Dwivedi</copyright>
+    <lastBuildDate>Tue, 21 Jun 2022 21:27:52 +0530</lastBuildDate><atom:link href="https://cyanide4dinner.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rust</title>
+      <link>https://cyanide4dinner.github.io/tags/rust/</link>
+      <pubDate>Tue, 21 Jun 2022 21:27:52 +0530</pubDate>
+      
+      <guid>https://cyanide4dinner.github.io/tags/rust/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>
