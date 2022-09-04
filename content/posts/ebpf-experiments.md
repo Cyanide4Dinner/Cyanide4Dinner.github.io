@@ -75,42 +75,42 @@ which makes it super easy to start developing BPF applications.
 bpftool btf dump file /sys/kernel/btf/vmlinux format c > vmlinux.h
 ```
 
-## BPF Programs Types
+## BPF Program Types
 In the latest version of [libbpf](https://github.com/libbpf/libbpf), below are listed the BPF Program Types [^1] -
-```c
-UNSPEC
-SOCKET_FILTER
-KPROBE
-SCHED_CLS
-SCHED_ACT
-TRACEPOINT
-XDP
-PERF_EVENT
-CGROUP_SKB
-CGROUP_SOCK
-LWT_IN
-LWT_OUT
-LWT_XMIT
-SOCK_OPS
-SK_SKB
-CGROUP_DEVICE
-SK_MSG
-RAW_TRACEPOINT
-CGROUP_SOCK_ADDR
-LWT_SEG6LOCAL
-LIRC_MODE2
-SK_REUSEPORT
-FLOW_DISSECTOR
-CGROUP_SYSCTL
-RAW_TRACEPOINT_WRITABLE
-CGROUP_SOCKOPT
-TRACING
-STRUCT_OPS
-EXT
-LSM
-SK_LOOKUP
-SYSCALL
-```
+| BPF Program Types |
+| --- |
+| `UNSPEC` |
+| `SOCKET_FILTER`* |
+| `KPROBE` |
+| `SCHED_CLS`* |
+| `SCHED_ACT`* |
+| `TRACEPOINT` |
+| `XDP`* |
+| `PERF_EVENT` |
+| `CGROUP_SKB`* |
+| `CGROUP_SOCK` |
+| `LWT_IN`* |
+| `LWT_OUT`* |
+| `LWT_XMIT`* |
+| `SOCK_OPS` |
+| `SK_SKB` |
+| `CGROUP_DEVICE` |
+| `SK_MSG` |
+| `RAW_TRACEPOINT`* |
+| `CGROUP_SOCK_ADDR` |
+| `LWT_SEG6LOCAL`* |
+| `LIRC_MODE2` |
+| `SK_REUSEPORT` |
+| `FLOW_DISSECTOR`* |
+| `CGROUP_SYSCTL` |
+| `RAW_TRACEPOINT_WRITABLE` |
+| `CGROUP_SOCKOPT` |
+| `TRACING` |
+| `STRUCT_OPS`* |
+| `EXT` |
+| `LSM` |
+| `SK_LOOKUP`* |
+| `SYSCALL`* |
 
 Following is a table of supported ELF section names - 
 
